@@ -1,6 +1,12 @@
 # Book Club Central
 A web application that enables users to view, add, edit, and delete books within a book club. This project utilizes React for the frontend and json-server to mimic a backend API, providing users with the ability to interact with a simulated database.
 
+# Features
+View Books: Displays a list of books fetched from a mock API.
+Add Books: Users can add new books with a title, author, genre, and image.
+Edit Books: Update details of existing books.
+Delete Books: Remove books from the list.
+
 
 
 
