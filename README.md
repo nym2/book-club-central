@@ -1,4 +1,8 @@
-# React + Vite
+# Book Club Central
+A web application that enables users to view, add, edit, and delete books within a book club. This project utilizes React for the frontend and json-server to mimic a backend API, providing users with the ability to interact with a simulated database.
+
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
