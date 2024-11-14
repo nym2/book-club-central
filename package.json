@@ -8,7 +8,8 @@
     "server": "json-server --watch backend/db.json --port 3000",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
