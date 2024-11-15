@@ -8,7 +8,7 @@ const AddBookForm = () => {
     title: '',
     author: '',
     genre: '',
-    image: '' // Path to the image file
+    image: '' 
   });
   const navigate = useNavigate();
 
