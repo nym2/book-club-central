@@ -1,6 +1,4 @@
-// src/api.js
-
-const BASE_URL = 'http://localhost:3000/books';
+const BASE_URL = 'https://json-server-template-exhn.onrender.com/books';
 
 // Fetch all books from the json-server
 export const getBooks = async () => {
