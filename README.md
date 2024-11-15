@@ -38,3 +38,4 @@ Currently, two official plugins are available:
 
 # The Live Link
 https://book-club-central.vercel.app/ 
+https://book-club-central-cwzmfmhn4-nympha-pambas-projects.vercel.app
