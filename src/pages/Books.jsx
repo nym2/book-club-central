@@ -20,7 +20,7 @@ const Books = () => {
     fetchBooks();
   }, []);
 
-  // Function to handle deletion of a book by removing it from state
+  // Function to handle deletion of a book 
   const handleDelete = (deletedBookId) => {
     setBooks(books.filter((book) => book.id !== deletedBookId));
   };
