@@ -5,84 +5,84 @@
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
       "genre": "Fiction",
-      "image": "public/images/book1.jpg"
+      "image": "https://www.haydnsymons.com/wp-content/uploads/2013/07/book-cover-illustration.jpg"
     },
     {
       "id": 2,
       "title": "1984",
       "author": "George Orwell",
       "genre": "Dystopian",
-      "image": "public/images/book2.jpg"
+      "image": "https://ih1.redbubble.net/image.3627486367.3163/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
     },
     {
       "id": 3,
       "title": "Pride and Prejudice",
       "author": "Jane Austen",
       "genre": "Romance",
-      "image": "public/images/book3.jpg"
+      "image": "https://images.squarespace-cdn.com/content/v1/58c180edff7c50dd0e51a2ad/1596042034594-2W8YVTNMCNUDY2FT9G73/Evensen+Creative+Edition+Front.jpg"
     },
     {
       "id": 4,
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
       "genre": "Fiction",
-      "image": "public/images/book4.jpg"
+      "image": "https://m.media-amazon.com/images/I/61PxxqzdJPL._AC_UF1000,1000_QL80_.jpg"
     },
     {
       "id": 5,
       "title": "Moby-Dick",
       "author": "Herman Melville",
       "genre": "Adventure",
-      "image": "public/images/book5.jpeg"
+      "image": "https://m.media-amazon.com/images/I/71d5wo+-MuL._AC_UF1000,1000_QL80_.jpg"
     },
     {
       "id": 6,
       "title": "War and Peace",
       "author": "Leo Tolstoy",
       "genre": "Historical",
-      "image": "public/images/book6.jpg"
+      "image": "https://www.kennys.ie/products/full/9781849908467.jpg"
     },
     {
       "id": 7,
       "title": "The Catcher in the Rye",
       "author": "J.D. Salinger",
       "genre": "Fiction",
-      "image": "public/images/book7.jpg"
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_632/80341619846549.562e1421640e3.jpg"
     },
     {
       "id": 8,
       "title": "The Hobbit",
       "author": "J.R.R. Tolkien",
       "genre": "Fantasy",
-      "image": "public/images/book8.jpg"
+      "image": "https://images.booksense.com/images/835/534/9780345534835.jpg"
     },
     {
       "id": 9,
       "title": "Jane Eyre",
       "author": "Charlotte Brontë",
       "genre": "Romance",
-      "image": "public/images/book9.jpg"
+      "image": "https://m.media-amazon.com/images/I/61F2kZtma8L._AC_UF1000,1000_QL80_.jpg"
     },
     {
       "id": 10,
       "title": "The Lord of the Rings",
       "author": "J.R.R. Tolkien",
       "genre": "Fantasy",
-      "image": "public/images/book10.jpeg"
+      "image": "https://static-ppimages.freetls.fastly.net/product/9780008537722.jpg?canvas=600,600&fit=bounds&height=600&mode=max&width=600&404=default.jpg"
     },
     {
       "id": 11,
       "title": "Brave New World",
       "author": "Aldous Huxley",
       "genre": "Dystopian",
-      "image": "public/images/book11.jpeg"
+      "image": "https://thebooklore.com/wp-content/uploads/2023/03/Brave-new-world-book-cover.jpg"
     },
     {
       "id": 12,
       "title": "Crime and Punishment",
       "author": "Fyodor Dostoevsky",
       "genre": "Crime",
-      "image": "public/images/book12.jpg"
+      "image": "https://covers.shakespeareandcompany.com/97800999/9780099981909.jpg"
     }
   ]
 }
