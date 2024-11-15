@@ -19,8 +19,8 @@ const AddBookForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await addBook(formData); // Add book to the backend
-    navigate('/books'); // Redirect to the book list after adding
+    await addBook(formData); 
+    navigate('/books'); 
   };
   
 
