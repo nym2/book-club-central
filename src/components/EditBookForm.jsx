@@ -4,8 +4,8 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { getBookById, updateBook } from '../Api'; // Import the functions
 
 const EditBookForm = () => {
-  const { id } = useParams(); // Get the book ID from URL params
-  const navigate = useNavigate(); // For navigation after successful update
+  const { id } = useParams(); 
+  const navigate = useNavigate(); 
   const [formData, setFormData] = useState({
     title: '',
     author: '',
@@ -13,12 +13,12 @@ const EditBookForm = () => {
     image: ''
   });
 
-  // Fetch the book details when the component mounts
+  // Fetch the book details 
   useEffect(() => {
     const fetchBook = async () => {
-      const book = await getBookById(id); // Get the book by ID
+      const book = await getBookById(id); 
       if (book) {
-        setFormData(book); // Set the form data to the current book's details
+        setFormData(book); 
       }
     };
     fetchBook();
@@ -33,8 +33,8 @@ const EditBookForm = () => {
   // Handle form submission to update the book
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await updateBook(id, formData); // Update the book on the backend
-    navigate('/books'); // Redirect after updating
+    await updateBook(id, formData); 
+    navigate('/books'); 
   };  
 
   return (

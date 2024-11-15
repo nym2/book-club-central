@@ -1,7 +1,7 @@
 /* Apply the Ubuntu font globally */
 * {
   font-family: 'Ubuntu', sans-serif;
-  box-sizing: border-box; /* Ensures padding and borders are included in width/height calculation */
+  box-sizing: border-box; 
 }
 
 body {
@@ -17,7 +17,7 @@ h1, h2, h3, h4, p, li, span, a {
   text-align: center;
 }
 
-/* Specific adjustment for navbar if needed */
+/* Styling for navbar */
 nav {
   text-align: center;
 }
@@ -193,7 +193,7 @@ nav a {
   color: white;
   text-decoration: none;
   font-size: 18px;
-  font-weight: 500; /* Optional: Makes text a bit bolder */
+  font-weight: 500; 
 }
 
 nav a:hover {
@@ -205,9 +205,9 @@ nav a:hover {
 /* Container for the list of books */
 .book-list {
   display: flex;
-  flex-wrap: wrap; /* Allows wrapping to the next line */
-  justify-content: space-around; /* Evenly spaces out items */
-  gap: 20px; /* Adds some space between the book cards */
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  gap: 20px; 
   padding: 20px;
 }
 

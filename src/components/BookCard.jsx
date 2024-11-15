@@ -1,15 +1,14 @@
 // src/components/BookCard.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { deleteBook } from '../Api'; // Import the deleteBook function
+import { deleteBook } from '../Api'; 
 
-const BookCard = ({ book, onDelete }) => {  // Accept onDelete as a prop
-
+const BookCard = ({ book, onDelete }) => { 
   const handleDelete = async () => {
-    const isDeleted = await deleteBook(book.id); // DELETE book by ID
+    const isDeleted = await deleteBook(book.id); 
     if (isDeleted) {
       alert('Book deleted successfully');
-      onDelete(book.id);  // Remove the book from parent state (Books or BookList)
+      onDelete(book.id);  
     } else {
       alert('Failed to delete the book');
     }
