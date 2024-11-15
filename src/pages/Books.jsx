@@ -10,18 +10,18 @@ const Books = () => {
     const fetchBooks = async () => {
       try {
         const booksData = await getBooks();
-        setBooks(booksData); // Fetch books from the API and set the state
+        setBooks(booksData); 
       } catch (error) {
         console.error('Failed to load books:', error);
       }
     };
 
     fetchBooks();
-  }, []); // Empty dependency array ensures this runs once on page load
+  }, []); 
 
-  // Function to handle deletion of a book by removing it from state
+  // Function to handle deletion of a book 
   const handleDelete = (deletedBookId) => {
-    setBooks(books.filter((book) => book.id !== deletedBookId)); // Remove book from state
+    setBooks(books.filter((book) => book.id !== deletedBookId)); 
   };
 
   return (
