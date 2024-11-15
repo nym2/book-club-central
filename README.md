@@ -14,6 +14,7 @@ Add a Book: Easily add a new book to the collection.
 Edit Book Details: Update information of any existing book.
 Delete a Book: Remove a book from the collection.
 Responsive Design: Works seamlessly on both desktop and mobile devices.
+Search Functionality: A search bar has been implemented on the Books page to allow users to filter the list of books by title.
 
 # Usage
 The homepage will show a list of books.
@@ -36,4 +37,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 # The Live Link
-https://book-club-central-nsxnol6q1-nympha-pambas-projects.vercel.app/books 
+https://book-club-central.vercel.app/ 
