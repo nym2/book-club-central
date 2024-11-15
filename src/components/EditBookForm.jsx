@@ -1,7 +1,7 @@
 // src/components/EditBookForm.jsx
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { getBookById, updateBook } from '../Api'; // Import the functions
+import { getBookById, updateBook } from '../Api'; 
 
 const EditBookForm = () => {
   const { id } = useParams(); 
