@@ -7,6 +7,12 @@ Add Books: Users can add new books with a title, author, genre, and image.
 Edit Books: Update details of existing books.
 Delete Books: Remove books from the list.
 
+# Usage
+The homepage will show a list of books.
+Use the "Add Book" feature to add new books to the list.
+You can edit or delete any book using the provided buttons.
+
+
 
 
 
